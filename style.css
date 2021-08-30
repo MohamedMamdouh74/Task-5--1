@@ -1,0 +1,159 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.head
+{
+    /* background-color: teal; */
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    border-bottom: 2px solid #777;
+    border-bottom-width: thin;
+    
+}
+
+.head div
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    
+}
+
+.head div h4
+{
+    text-transform: uppercase;
+    color: #49b748;
+    font-family: sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+.head div p
+{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    bottom: 15px;
+}
+
+
+
+
+.content
+{
+    /* background-color: wheat; */
+    width: 60%;
+    height: 750px;
+    margin: auto;
+}
+
+.right
+{
+    /* background-color: yellowgreen; */
+    /* position: relative; */
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px; */
+    
+    /* overflow: hidden; */
+}
+
+.right img
+{
+    width: 60px;
+    margin-bottom: 200px;
+}
+
+
+.left
+{
+    /* background-color: rgb(94, 105, 72); */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.left img
+{
+    width: 60px;
+    margin-bottom: 200px;
+}
+
+.det
+{
+    position: absolute;
+    top: 148px;
+    left: 1010px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 15px;
+
+}
+
+.f
+{
+    margin-bottom: 138px;
+}
+
+.s
+{
+    margin-bottom: 138px;
+}
+
+.det h1
+{
+    font-family: sans-serif;
+}
+
+.det p
+{
+    font-family: sans-serif;
+    color: #333;
+}
+
+.detf
+{
+    position: absolute;
+    top: 148px;
+    left: 450px;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+
+.f
+{
+    margin-bottom: 138px;
+}
+
+.s
+{
+    margin-bottom: 138px;
+}
+
+.detf h1
+{
+    font-family: sans-serif;
+}
+
+.detf p
+{
+    font-family: sans-serif;
+    color: #333;
+}
